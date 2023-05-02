@@ -1,6 +1,9 @@
 service: saul-api-2
 frameworkVersion: '3'
 
+plugins:
+  - serverless-ignore
+
 provider:
   name: aws
   runtime: nodejs18.x
